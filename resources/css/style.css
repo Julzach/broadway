@@ -5,18 +5,16 @@ html {
 
 .header {
 background-image:url("../images/flatiron.png");
-font-size: 18px;
+background-repeat: no-repeat;
+background-size: 100% 100%;
 color: white;
-}
-
-a:link {
-  color:white;
 }
 
 .footer {
 text-align: left;
+font-size: 11px;
 color: white;
-background-color: gray;
+background-color: dimgray;
 }
 
 h1 {
@@ -32,5 +30,13 @@ h2 {
 h3 {
 font-size: 23px;
 font-weight: bold;
+}
 
+p {
+  font-size: 14px;
+}
+
+a:link {
+  color:white;
+  font-size: 18px;
 }
